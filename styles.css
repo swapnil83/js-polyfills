@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+code {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section {
+    padding: 20px;
+    width: 50%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 5px solid rgb(136, 118, 118);
+}
