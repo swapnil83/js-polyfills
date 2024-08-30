@@ -1,16 +1,16 @@
 const nums = [1, 2, 3, 4, 5];
 
-// const res = nums.map(num => num * 5);
-// console.log(res);
+// const mappedResult = nums.map(num => num * 5);
+// console.log(mappedResult);
 
 Array.prototype.mapPolyfill = function(cb) {
-    let newArr = [];
+    let mappedPolyfillResult = [];
 
     for(let index = 0; index < this.length; index++) {
-        newArr.push(cb(this[index], index, this));
+        mappedPolyfillResult.push(cb(this[index], index, this));
     }
 
-    return newArr;
+    return mappedPolyfillResult;
 }
 
 function multiplyByFive(num, index, arr) {
