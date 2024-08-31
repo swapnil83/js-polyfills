@@ -48,8 +48,8 @@ polyfillNestedArrCopy[2].push(20);
 console.log(nestedArr);
 console.log(polyfillNestedArrCopy);
 
-const polyfillNestedCopy = deepCopy(originalObj);
-polyfillNestedArrCopy.b2 = null;
+const polyfillNestedObjCopy = deepCopy(originalObj);
+polyfillNestedObjCopy.b2 = null;
 console.log(originalObj);
-console.log(polyfillNestedArrCopy);
+console.log(polyfillNestedObjCopy);
 
