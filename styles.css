@@ -17,3 +17,27 @@ section {
     border-radius: 5px;
     border: 5px solid rgb(136, 118, 118);
 }
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+}
+
+input:focus-visible {
+    border-color: salmon;
+}
+
+ul {
+    margin-left: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li {
+    font-size: 16px;
+    list-style-type: decimal;
+    font-weight: 550;
+}
