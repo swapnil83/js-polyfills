@@ -12,7 +12,7 @@ function debounceInputSearch(cb) {
         timerId = setTimeout(() => {
             timerId = null;
             cb.apply(context, args);
-        }, 2000);
+        }, 500);
     }
 }
 
