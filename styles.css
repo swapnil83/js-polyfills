@@ -24,10 +24,6 @@ input {
     border: none;
 }
 
-input:focus-visible {
-    border-color: salmon;
-}
-
 ul {
     margin-left: 15px;
     padding: 10px;
@@ -40,4 +36,19 @@ li {
     font-size: 16px;
     list-style-type: decimal;
     font-weight: 550;
+}
+
+button {
+    border: none;
+    padding: 10px;
+    background-color: sandybrown;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: seagreen;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
 }

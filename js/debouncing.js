@@ -1,3 +1,13 @@
+/**
+ * Debouncing and Throttling are techniques used to control the rate at which a function is executed
+ * particularly in scenarios where frequent events (like user interactions)
+ * can lead to excessive calls and potentially impact performace.
+ * 
+ * Debouncing: Deboucing is a technique that delays the execution of a function
+ * until a certain amount of time has passed
+ * since the last event's occurence
+ */
+
 const searchInputId = document.getElementById('search');
 let searchNameResult = [];
 let ulElement = null;
