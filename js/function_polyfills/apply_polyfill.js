@@ -6,8 +6,7 @@ const person2 = {
     name: 'Shahrukh Khan'
 };
 
-function getPersonInfo(...args) {
-    const [ age, city ] = args;
+function getPersonInfo(age, city) {
     console.log(`Name is ${this.name} and age is ${age}. Lived in ${city} city.`);
 }
 
